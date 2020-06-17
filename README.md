@@ -20,7 +20,7 @@ Kasutatud on Projekti käigus HTML, CSS, Javascript ja PHP-d.
 * [Itmajakas](https://todo.tak17nurmberg.itmajakas.ee/user.php) - To Do lehekülg
 
 ## Mida me kasutasime tarkvara loomiseks?
-* [Figma](https://www.figma.com/file/yqxztLVB1HffrGM2fY85YZ/Untitled?node-id=0%3A1) - Figma Prototüüp
+* [Figma](https://www.figma.com/file/yqxztLVB1HffrGM2fY85YZ/To-Do-List?node-id=1%3A2) - Figma Prototüüp
 * [Github](https://github.com/HenrysHub/eksam/) - Kood githubi
 * [PhpStorm](https://www.jetbrains.com/phpstorm/) - PhpStorm koodi kirjutamine
 * [Toggl](https://www.toggl.com/) - Aja jälgimine
