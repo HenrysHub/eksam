@@ -6,7 +6,7 @@ Töö tegemise käigus on järgitud võimalikult paljusid tarkvara arendamise p�
 Kasutasime Togglit aja jälgimiseks, palju millegi peale aega kulus.
 Kasutatud on Projekti käigus HTML, CSS, Javascript ja PHP-d.
 
-# Funktsioonid, mis peavad olema leheküljel
+## Funktsioonid, mis peavad olema leheküljel
 * Sa pead saama lisada tegevust.
 * Tegevuste nimekiri.
 * Pead saama neid liigutada, kustutada editida.
@@ -16,7 +16,7 @@ Kasutatud on Projekti käigus HTML, CSS, Javascript ja PHP-d.
 * Auto24 autentimise moodul.
 * Teha alguses prototüüp, kasuta erinevaid kasutaja keskondasid.
 
-# Link tarkvarale
+## Link tarkvarale
 * [Itmajakas](https://.itmajakas.ee/) - To Do lehekülg
 
 # Mida me kasutasime tarkvara loomiseks?
@@ -27,7 +27,7 @@ Kasutatud on Projekti käigus HTML, CSS, Javascript ja PHP-d.
 * [Zone] - Live keskkond Zone
 
 
-# Tiim
+## Tiim
 * Henry Lehtsi
 * Tony Sillart
 * Alex Nurmberg
