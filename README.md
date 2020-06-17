@@ -19,7 +19,7 @@ Kasutatud on Projekti käigus HTML, CSS, Javascript ja PHP-d.
 ## Link tarkvarale
 * [Itmajakas](https://.itmajakas.ee/) - To Do lehekülg
 
-# Mida me kasutasime tarkvara loomiseks?
+## Mida me kasutasime tarkvara loomiseks?
 * [Figma] -
 * [Github](https://github.com/HenrysHub/eksam/) - Kood githubi
 * [PhpStorm](https://www.jetbrains.com/phpstorm/) - PhpStorm koodi kirjutamine
