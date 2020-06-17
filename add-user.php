@@ -1,54 +1,22 @@
 <?php
+require_once("connection.php");
 
-/**
- * Created by PhpStorm.
- * User: eerik.pold
- * Date: 07.02.2019
- * Time: 14:37
- */
-//TODO put correct redirects
-$user = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
-$pw = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_STRING);
 $action = filter_input(INPUT_POST, 'action', FILTER_SANITIZE_STRING);
 
 if (isset($action) && $action == 'new-user') {
 
     $error = [];
 
-    if (empty($username)) {
-        $error['username'] = 'Username cannot be empty';
-    }
+            $sql = "INSERT INTO todo_users (username, password)
+        VALUES ('" . $_POST["email"] . "', '" . $_POST["password"] . "')";
 
-    if (empty($password)) {
-        $error['password'] = 'Password cannot be empty';
-    }
+            if ($mysqli->query($sql) === TRUE) {
+                echo "New record created successfully";
+            } else {
+                echo "Error: " . $sql . "<br>" . $mysqli->error;
+            }
 
-    if (empty($error)) {
-
-        $servername = "d82908.mysql.zonevs.eu";
-        $username = "d82908_todo";
-        $password = "TAK17eksam";
-        $dbname = "d82908_todo";
-
-// Create connection
-        $conn = mysqli_connect($servername, $username, $password, $dbname);
-        echo "database connected";
-// Check connection
-        if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
-        }
-
-        $sql = "INSERT INTO todo_users (username, password)
-        VALUES ('$user', '$pw')";
-
-        if ($conn->query($sql) === TRUE) {
-            echo "New record created successfully";
-        } else {
-            echo "Error: " . $sql . "<br>" . $conn->error;
-        }
-
-        $conn->close();
-    }
+            $mysqli->close();
 }
 
 ?>

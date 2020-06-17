@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+#sortable li { 
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    height: 1.5em;
+}
+html>body #sortable li {
+    height: 1.5em;
+    line-height: 1.2em;
+}
+.ui-state-highlight {
+    height: 1.5em;
+    line-height: 1.2em;
+}
+.nav{
+    background-color: #2F80ED;
+    margin-bottom: 200px;
+}
+.todo{
+    font-family: 'Handlee', cursive;
+    font-size: 64px;
+    text-align: center;
+    color: #F2F2F2;
+}
+.login{
+    font-family: 'Handlee', cursive;
+    font-size: 24px;
+    text-align: center;
+    color: #F2F2F2;
+    text-decoration: underline;
+}
