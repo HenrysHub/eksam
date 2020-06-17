@@ -17,7 +17,7 @@ Kasutatud on Projekti käigus HTML, CSS, Javascript ja PHP-d.
 * Teha alguses prototüüp, kasuta erinevaid kasutaja keskondasid.
 
 ## Link tarkvarale
-* [Itmajakas](https://todo.tak17nurmberg.itmajakas.ee/user.php) - To Do lehekülg
+* [Itmajakas](https://todo.tak17nurmberg.itmajakas.ee/) - To Do lehekülg
 
 ## Mida me kasutasime tarkvara loomiseks?
 * [Figma](https://www.figma.com/file/yqxztLVB1HffrGM2fY85YZ/To-Do-List?node-id=1%3A2) - Figma Prototüüp
