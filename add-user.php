@@ -7,8 +7,10 @@ if (isset($action) && $action == 'new-user') {
 
     $error = [];
 
-            $sql = "INSERT INTO todo_users (username, password)
+            $sql = "INSERT INTO todo_users (username, password) 
         VALUES ('" . $_POST["username"] . "', '" . $_POST["password"] . "')";
+
+            var_dump($mysqli);
 
             if ($mysqli->query($sql) === TRUE) {
                 echo "New record created successfully";

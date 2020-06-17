@@ -1,5 +1,6 @@
 <?php
 session_start();
+require_once("connection.php");
 ?>
 <!doctype html>
 <html lang="en">
@@ -23,7 +24,6 @@ session_start();
     </script>
 </head>
 <body>
-
 <header class="nav">
     <div class="todo">To Do List</div>
     <?php
@@ -34,17 +34,30 @@ session_start();
         }
         ?>
 </header>
+<a href="add-category.php">Add category</a>
+<?php
 
-<ul class="list" id="sortable">
-    <li class="ui-state-default">Item 1.2</li>
-    <li class="ui-state-default">Item 2.2</li>
-    <li class="ui-state-default">Item 3</li>
-    <li class="ui-state-default">Item 4</li>
-    <li class="ui-state-default">Item 5</li>
-    <li class="ui-state-default">Item 6</li>
-    <li class="ui-state-default">Item 7</li>
-</ul>
+$category = 'SELECT * FROM todo_categories';
+$result = $mysqli->query($category);
 
+if ($result->num_rows > 0) {
+    // output data of each row
+    ?><ul class="list" id="sortable"><?php
+    while($row = $result->fetch_assoc()) {
 
+        ?><li class="ui-state-default"><?php echo  $row["name"];?>
+        <form method="post" action="delete-category.php">
+            <input type="hidden" name="id" value="<?php echo $row["id"];?>">
+
+        <a><button style="background-color: #cc0000; color: white;">X</button></a>
+        </form>
+        </li><?php
+
+    }?>
+    </ul><?php
+} else {
+    echo "0 results";
+}
+?>
 </body>
 </html>
