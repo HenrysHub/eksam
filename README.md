@@ -13,12 +13,11 @@ Kasutatud on Projekti käigus HTML, CSS, Javascript ja PHP-d.
 * [Github]
 * [PhpStorm]
 * [Toggl](https://www.toggl.com/) - Aja jälgimine
-* [Gimp](https://www.gimp.org/) - Logo disainimine
 
 # Tiim
 * Henry Lehtsi
-* 
-* 
-* 
-* 
-* 
+* Tony Sillart
+* Alex Nurmberg
+* Gert Indrek Poljakov
+* Eerik Põld
+
