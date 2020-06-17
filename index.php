@@ -1,17 +1,16 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ToDo List</title>
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
-    <style>
-        #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
-        #sortable li { margin: 0 5px 5px 5px; padding: 5px; font-size: 1.2em; height: 1.5em; }
-        html>body #sortable li { height: 1.5em; line-height: 1.2em; }
-        .ui-state-highlight { height: 1.5em; line-height: 1.2em; }
-    </style>
+
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
@@ -25,9 +24,20 @@
 </head>
 <body>
 
-<ul id="sortable">
-    <li class="ui-state-default">Item 1</li>
-    <li class="ui-state-default">Item 2</li>
+<header class="nav">
+    <div class="todo">To Do List</div>
+    <?php
+        if($_SESSION['login_user'] == NULL){?>
+            <a class="login" href="login.php">Login</a><?php
+        }else{
+            ?><a class="login" href="logout.php">Logout</a><?php
+        }
+        ?>
+</header>
+
+<ul class="list" id="sortable">
+    <li class="ui-state-default">Item 1.2</li>
+    <li class="ui-state-default">Item 2.2</li>
     <li class="ui-state-default">Item 3</li>
     <li class="ui-state-default">Item 4</li>
     <li class="ui-state-default">Item 5</li>
