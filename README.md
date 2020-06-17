@@ -17,14 +17,14 @@ Kasutatud on Projekti käigus HTML, CSS, Javascript ja PHP-d.
 * Teha alguses prototüüp, kasuta erinevaid kasutaja keskondasid.
 
 ## Link tarkvarale
-* [Itmajakas](https://.itmajakas.ee/) - To Do lehekülg
+* [Itmajakas](https://todo.tak17nurmberg.itmajakas.ee/user.php) - To Do lehekülg
 
 ## Mida me kasutasime tarkvara loomiseks?
 * [Figma] -
 * [Github](https://github.com/HenrysHub/eksam/) - Kood githubi
 * [PhpStorm](https://www.jetbrains.com/phpstorm/) - PhpStorm koodi kirjutamine
 * [Toggl](https://www.toggl.com/) - Aja jälgimine
-* [Zone] - Live keskkond Zone
+* [Zone](https://www.zone.ee/et/) - Live keskkond Zone
 
 
 ## Tiim
