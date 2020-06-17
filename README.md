@@ -28,9 +28,9 @@ Kasutatud on Projekti käigus HTML, CSS, Javascript ja PHP-d.
 
 
 ## Tiim
-* Henry Lehtsi
-* Tony Sillart
-* Alex Nurmberg
-* Gert Indrek Poljakov
-* Eerik Põld
+* Henry Lehtsi - Dokumentatsioon
+* Tony Sillart - Andmebaasid
+* Alex Nurmberg - Disain
+* Gert Indrek Poljakov - Koodi kirjutamine
+* Eerik Põld - Koodi kirjutamine
 
